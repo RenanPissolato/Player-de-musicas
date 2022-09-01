@@ -1,25 +1,34 @@
 body,html {
-    display: flex;
-    flex-direction: column;
+    
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #333;
+    background-color: #170c23;
     color: #ddd;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.dança{
+    display: none;
 }
 
 img{
     width: 300px;
     height: 300px;
+    border: 5px solid #ffffff;   
 }
 
 .descricao{
     width: 300px;
+    padding-top: 10px;
 }
 
 h2{
     margin-bottom: 5px;
+    padding-top: 15px;
 }
 
 .duracao{
@@ -75,4 +84,15 @@ progress{
 .setas{
     font-size: 40px;
     cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.setas:hover{
+   color:#00f675 ; 
+}
+.botao-play:hover{
+    color:#00f675
+}
+.botao-pause:hover{
+    color:#00f675
+   
 }
